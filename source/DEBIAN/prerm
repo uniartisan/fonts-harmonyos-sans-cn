@@ -1,0 +1,28 @@
+#!/bin/bash
+# filename: prerm
+# 2023-02-08 uniartisan
+set -e
+
+declare -a fontdir
+SUBDIR=harmonyos
+fontdir[0]="/usr/share/fonts/truetype/$SUBDIR"
+#fontdir[1]="/usr/share/fonts/opentype/$SUBDIR"
+
+declare -a fontcfg
+fontcfg[0]=".uuid"
+#fontcfg[1]="fonts.scale"
+#fontcfg[2]="fonts.dir"
+
+echo " clear void font informations..."
+    for f in "${fontcfg[@]}"; do
+      if [ -f "${fontdir[0]}/$f" ]; then
+	rm -f "${fontdir[0]}/$f"
+      fi
+
+#      if [ -f "${fontdir[1]}/$f" ]; then
+#	rm -f "${fontdir[1]}/$f"
+#      fi
+    done
+
+echo
+

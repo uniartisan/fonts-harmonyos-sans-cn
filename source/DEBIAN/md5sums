@@ -1,0 +1,12 @@
+3519905d682f654fdaf5a6de47c1e265  etc/ghostscript/cidfmap.d/86gs-cjk-honor_sans_cn-gb1.conf
+99fded09e02d4755108206f2acb3183c  etc/fonts/conf.avail/34-fonts-honor-sans-cn.conf
+9a27fe0df7ecea839574fa47d5c1ab0f  usr/share/doc/ghostscript/examples/cjk/sample-honor_sans_cn.ps
+4f987a66f894b42a210a9adf1c0bea9a  usr/share/doc/fonts-honor-sans-cn/tips_setup-default-chinese-sans-font.txt
+b59c7b43701f2f797fd2fc4719f7bd99  usr/share/doc/fonts-honor-sans-cn/LICENSE.txt
+fd6c5a0692016896d0831dcf4f79ee5a  usr/share/doc/fonts-honor-sans-cn/copyright
+391cd278a399b4686b58917c75ec7be0  usr/share/doc/fonts-honor-sans-cn/changelog.Debian.gz
+1c637645ed98e224673e089eb4006308  usr/share/doc/fonts-honor-sans-cn/README.zh_CN
+4fc811cceb683db13ebd2863edb90a4f  usr/share/fonts/truetype/honor/HONORSansCN-Light.ttf
+c3c8517cb7d16380e398fd59cc3c379f  usr/share/fonts/truetype/honor/HONORSansCN-Regular.ttf
+3a1c4da6017549809f2e5b5242a77d17  usr/share/fonts/truetype/honor/HONORSansCN-Bold.ttf
+17a863aad912e318d86faaa05aa86b94  usr/share/fontconfig/conf.avail/34-fonts-honor-sans-cn.conf
